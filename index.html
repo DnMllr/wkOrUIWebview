@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <script>
+        if ( navigator.platform.substr( 0, 2 ) === 'iP' ) {
+            if ( window.indexedDB ) document.body.style.backgroundColor = 'green';
+            else document.body.style.backgroundColor = 'yellow';
+        } else document.body.style.backgroundColor = 'red';
+    </script>
+</body>
